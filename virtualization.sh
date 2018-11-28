@@ -24,3 +24,4 @@ __EOF__
 systemctl start libvirtd.service
 systemctl enable libvirtd.service
 
+reboot
