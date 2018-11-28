@@ -9,7 +9,7 @@
 ## VERSION:
 ## This version is known to work with ClearOS 7.5 installations.
 
-yum install kvm virt-manager libvirt seabios-bin
+yum -y install kvm virt-manager libvirt seabios-bin
 
 mkdir -p /usr/lib/udev/rules.d
 touch /usr/lib/udev/rules.d/82-kvm-clearos.rules
