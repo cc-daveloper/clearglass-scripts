@@ -5,9 +5,9 @@
 ## Script licensed under GNU AFFERO GENERAL PUBLIC LICENSE v3
 ## https://www.gnu.org/licenses/agpl-3.0.en.html
 ## DESCRIPTION:
-## This script provisions Dell 300x IoT Gateways with ClearOS.
+## This script provisions ClearOS servers with KVM virtualization and then reboots the server
 ## VERSION:
-## This version is known to work with Ubuntu Core installations.
+## This version is known to work with ClearOS 7.5 installations.
 
 yum install kvm virt-manager libvirt seabios-bin
 
